@@ -192,7 +192,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -353,7 +352,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -542,7 +540,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -689,7 +686,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -836,7 +832,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -1024,7 +1019,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -1405,7 +1399,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
         {
@@ -1553,13 +1546,11 @@ const completionSpec: Fig.Spec = {
               name: "DATASET",
               description:
                 "ID of the dataset or fully qualified identifier for the dataset",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -1716,7 +1707,6 @@ const completionSpec: Fig.Spec = {
             name: "DATASET",
             description:
               "ID of the dataset or fully qualified identifier for the dataset",
-            isVariadic: false,
           },
         },
       ],
@@ -2048,7 +2038,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
         {
@@ -2214,7 +2203,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
         {
@@ -2370,7 +2358,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
         {
@@ -2526,7 +2513,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
         {
@@ -2708,7 +2694,6 @@ const completionSpec: Fig.Spec = {
                 name: "DICOM_STORE",
                 description:
                   "ID of the dicomStore or fully qualified identifier for the dicomStore",
-                isVariadic: false,
               },
             },
             {
@@ -2891,7 +2876,6 @@ const completionSpec: Fig.Spec = {
                 name: "DICOM_STORE",
                 description:
                   "ID of the dicomStore or fully qualified identifier for the dicomStore",
-                isVariadic: false,
               },
             },
           ],
@@ -3218,7 +3202,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
         {
@@ -3395,7 +3378,6 @@ const completionSpec: Fig.Spec = {
                 name: "DICOM_STORE",
                 description:
                   "ID of the dicomStore or fully qualified identifier for the dicomStore",
-                isVariadic: false,
               },
             },
           ],
@@ -3925,7 +3907,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
         {
@@ -4083,13 +4064,11 @@ const completionSpec: Fig.Spec = {
               name: "DICOM_STORE",
               description:
                 "ID of the dicomStore or fully qualified identifier for the dicomStore",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -4256,7 +4235,6 @@ const completionSpec: Fig.Spec = {
             name: "DICOM_STORE",
             description:
               "ID of the dicomStore or fully qualified identifier for the dicomStore",
-            isVariadic: false,
           },
         },
       ],
@@ -4588,7 +4566,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
         {
@@ -4769,7 +4746,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
         {
@@ -4925,7 +4901,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
         {
@@ -5081,7 +5056,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
         {
@@ -5278,7 +5252,6 @@ const completionSpec: Fig.Spec = {
                 name: "FHIR_STORE",
                 description:
                   "ID of the fhirStore or fully qualified identifier for the fhirStore",
-                isVariadic: false,
               },
             },
             {
@@ -5451,7 +5424,6 @@ const completionSpec: Fig.Spec = {
                 name: "FHIR_STORE",
                 description:
                   "ID of the fhirStore or fully qualified identifier for the fhirStore",
-                isVariadic: false,
               },
             },
           ],
@@ -5778,7 +5750,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
         {
@@ -5971,7 +5942,6 @@ const completionSpec: Fig.Spec = {
                 name: "FHIR_STORE",
                 description:
                   "ID of the fhirStore or fully qualified identifier for the fhirStore",
-                isVariadic: false,
               },
             },
           ],
@@ -6501,7 +6471,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
         {
@@ -6659,13 +6628,11 @@ const completionSpec: Fig.Spec = {
               name: "FHIR_STORE",
               description:
                 "ID of the fhirStore or fully qualified identifier for the fhirStore",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -6837,7 +6804,6 @@ const completionSpec: Fig.Spec = {
             name: "FHIR_STORE",
             description:
               "ID of the fhirStore or fully qualified identifier for the fhirStore",
-            isVariadic: false,
           },
         },
       ],
@@ -7169,7 +7135,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
         {
@@ -7336,7 +7301,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
         {
@@ -7492,7 +7456,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
         {
@@ -7648,7 +7611,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
         {
@@ -7845,7 +7807,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
         {
@@ -8245,7 +8206,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
         {
@@ -8403,13 +8363,11 @@ const completionSpec: Fig.Spec = {
               name: "HL7V2_STORE",
               description:
                 "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -8577,7 +8535,6 @@ const completionSpec: Fig.Spec = {
             name: "HL7V2_STORE",
             description:
               "ID of the hl7v2Store or fully qualified identifier for the hl7v2Store",
-            isVariadic: false,
           },
         },
       ],
@@ -8867,7 +8824,6 @@ const completionSpec: Fig.Spec = {
             name: "OPERATION",
             description:
               "ID of the operation or fully qualified identifier for the operation",
-            isVariadic: false,
           },
         },
         {

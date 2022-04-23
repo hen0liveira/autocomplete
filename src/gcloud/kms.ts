@@ -931,7 +931,6 @@ const completionSpec: Fig.Spec = {
             name: "IMPORT_JOB",
             description:
               "ID of the import job or fully qualified identifier for the import job",
-            isVariadic: false,
           },
         },
         {
@@ -1111,7 +1110,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "IMPORT_JOB",
             description: "Name of the import job to create",
-            isVariadic: false,
           },
         },
         {
@@ -1275,7 +1273,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "IMPORT_JOB",
             description: "Name of the import job to describe",
-            isVariadic: false,
           },
         },
         {
@@ -1471,7 +1468,6 @@ const completionSpec: Fig.Spec = {
             name: "IMPORT_JOB",
             description:
               "ID of the import job or fully qualified identifier for the import job",
-            isVariadic: false,
           },
         },
         {
@@ -1843,7 +1839,6 @@ const completionSpec: Fig.Spec = {
             name: "IMPORT_JOB",
             description:
               "ID of the import job or fully qualified identifier for the import job",
-            isVariadic: false,
           },
         },
         {
@@ -2000,13 +1995,11 @@ const completionSpec: Fig.Spec = {
               name: "IMPORT_JOB",
               description:
                 "ID of the import job or fully qualified identifier for the import job",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -2329,7 +2322,6 @@ const completionSpec: Fig.Spec = {
             name: "KEYRING",
             description:
               "ID of the keyring or fully qualified identifier for the keyring",
-            isVariadic: false,
           },
         },
         {
@@ -2476,7 +2468,6 @@ const completionSpec: Fig.Spec = {
             name: "KEYRING",
             description:
               "ID of the keyring or fully qualified identifier for the keyring",
-            isVariadic: false,
           },
         },
         {
@@ -2623,7 +2614,6 @@ const completionSpec: Fig.Spec = {
             name: "KEYRING",
             description:
               "ID of the keyring or fully qualified identifier for the keyring",
-            isVariadic: false,
           },
         },
         {
@@ -2809,7 +2799,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "KEYRING",
             description: "Name of the key ring whose IAM policy to fetch",
-            isVariadic: false,
           },
         },
         {
@@ -3190,7 +3179,6 @@ const completionSpec: Fig.Spec = {
             name: "KEYRING",
             description:
               "ID of the keyring or fully qualified identifier for the keyring",
-            isVariadic: false,
           },
         },
         {
@@ -3337,12 +3325,10 @@ const completionSpec: Fig.Spec = {
             {
               name: "KEYRING",
               description: "Name of the key ring whose IAM policy to update",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description: "JSON or YAML file with the IAM policy",
-              isVariadic: false,
             },
           ],
         },
@@ -3674,7 +3660,6 @@ const completionSpec: Fig.Spec = {
             name: "KEY",
             description:
               "ID of the key or fully qualified identifier for the key",
-            isVariadic: false,
           },
         },
         {
@@ -3918,7 +3903,6 @@ const completionSpec: Fig.Spec = {
             name: "KEY",
             description:
               "ID of the key or fully qualified identifier for the key",
-            isVariadic: false,
           },
         },
         {
@@ -4074,7 +4058,6 @@ const completionSpec: Fig.Spec = {
             name: "KEY",
             description:
               "ID of the key or fully qualified identifier for the key",
-            isVariadic: false,
           },
         },
         {
@@ -4269,7 +4252,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "KEY",
             description: "Name of the key whose IAM policy to fetch",
-            isVariadic: false,
           },
         },
         {
@@ -4668,7 +4650,6 @@ const completionSpec: Fig.Spec = {
             name: "KEY",
             description:
               "ID of the key or fully qualified identifier for the key",
-            isVariadic: false,
           },
         },
         {
@@ -4824,7 +4805,6 @@ const completionSpec: Fig.Spec = {
             name: "KEY",
             description:
               "Name of the key from which to clear the rotation schedule",
-            isVariadic: false,
           },
         },
         {
@@ -4980,12 +4960,10 @@ const completionSpec: Fig.Spec = {
             {
               name: "KEY",
               description: "Name of the key whose IAM policy to update",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description: "JSON or YAML file with the IAM policy",
-              isVariadic: false,
             },
           ],
         },
@@ -5141,7 +5119,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "KEY",
             description: "Name of the key to modify",
-            isVariadic: false,
           },
         },
         {
@@ -5317,7 +5294,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "KEY",
             description: "Name of the key to update the schedule of",
-            isVariadic: false,
           },
         },
         {
@@ -5559,7 +5535,6 @@ const completionSpec: Fig.Spec = {
             name: "KEY",
             description:
               "ID of the key or fully qualified identifier for the key",
-            isVariadic: false,
           },
         },
         {
@@ -5910,7 +5885,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to describe",
-                isVariadic: false,
               },
             },
             {
@@ -6074,7 +6048,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to destroy",
-                isVariadic: false,
               },
             },
             {
@@ -6238,7 +6211,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to disable",
-                isVariadic: false,
               },
             },
             {
@@ -6402,7 +6374,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to enable",
-                isVariadic: false,
               },
             },
             {
@@ -6575,7 +6546,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to get public key",
-                isVariadic: false,
               },
             },
             {
@@ -7168,7 +7138,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to restore",
-                isVariadic: false,
               },
             },
             {
@@ -7351,7 +7320,6 @@ const completionSpec: Fig.Spec = {
               args: {
                 name: "VERSION",
                 description: "Name of the version to describe",
-                isVariadic: false,
               },
             },
           ],

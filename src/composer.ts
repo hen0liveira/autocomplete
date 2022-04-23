@@ -216,7 +216,6 @@ const completionSpec: Fig.Spec = {
             name: "package",
             description: "Package to inspect, if not provided all packages are",
             isOptional: true,
-            isVariadic: false,
           },
           options: [
             {

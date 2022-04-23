@@ -211,7 +211,6 @@ const completionSpec: Fig.Spec = {
             name: "CONFIGURATION",
             description:
               "ID of the configuration or fully qualified identifier for the configuration",
-            isVariadic: false,
           },
         },
         {
@@ -1186,7 +1185,6 @@ const completionSpec: Fig.Spec = {
         name: "SERVICE",
         description:
           "ID of the service or fully qualified identifier for the service",
-        isVariadic: false,
       },
     },
     {
@@ -2924,7 +2922,6 @@ const completionSpec: Fig.Spec = {
             name: "REVISION",
             description:
               "ID of the revision or fully qualified identifier for the revision",
-            isVariadic: false,
           },
         },
         {
@@ -3132,7 +3129,6 @@ const completionSpec: Fig.Spec = {
             name: "REVISION",
             description:
               "ID of the revision or fully qualified identifier for the revision",
-            isVariadic: false,
           },
         },
         {
@@ -3790,7 +3786,6 @@ const completionSpec: Fig.Spec = {
             name: "ROUTE",
             description:
               "ID of the route or fully qualified identifier for the route",
-            isVariadic: false,
           },
         },
         {
@@ -4470,7 +4465,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
         {
@@ -4678,7 +4672,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
         {
@@ -4886,7 +4879,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
         {
@@ -5124,7 +5116,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
         {
@@ -5615,7 +5606,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
         {
@@ -5814,13 +5804,11 @@ const completionSpec: Fig.Spec = {
               name: "SERVICE",
               description:
                 "ID of the service or fully qualified identifier for the service",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -6354,7 +6342,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
         {
@@ -6582,7 +6569,6 @@ const completionSpec: Fig.Spec = {
             name: "SERVICE",
             description:
               "ID of the service or fully qualified identifier for the service",
-            isVariadic: false,
           },
         },
       ],

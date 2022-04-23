@@ -155,7 +155,6 @@ const completionSpec: Fig.Spec = {
                 name: "IMAGE",
                 description:
                   "A container image.\n+\nA valid container image has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE\n+\nA valid container image that can be referenced by tag or digest, has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE:tag\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE@sha256:digest",
-                isVariadic: false,
               },
             },
             {
@@ -323,7 +322,6 @@ const completionSpec: Fig.Spec = {
                 name: "IMAGE",
                 description:
                   "A container image.\n+\nA valid container image has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE\n+\nA valid container image that can be referenced by tag or digest, has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE:tag\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE@sha256:digest",
-                isVariadic: false,
               },
             },
             {
@@ -530,7 +528,6 @@ const completionSpec: Fig.Spec = {
                 name: "IMAGE_PATH",
                 description:
                   "An Artifact Registry repository or a container image.\nIf not specified, default config values are used.\n+\nA valid docker repository has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID\n+\nA valid image has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE_PATH",
-                isVariadic: false,
               },
             },
           ],
@@ -804,13 +801,11 @@ const completionSpec: Fig.Spec = {
                   name: "DOCKER_IMAGE",
                   description:
                     "Docker image - The container image that you want to tag.\n+\nA valid container image can be referenced by tag or digest, has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE:tag\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE@sha256:digest",
-                  isVariadic: false,
                 },
                 {
                   name: "DOCKER_TAG",
                   description:
                     "Image tag - The container image tag.\n+\nA valid Docker tag has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE:tag",
-                  isVariadic: false,
                 },
               ],
             },
@@ -950,7 +945,6 @@ const completionSpec: Fig.Spec = {
                 name: "DOCKER_TAG",
                 description:
                   "Image tag - The container image tag.\n+\nA valid Docker tag has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE:tag",
-                isVariadic: false,
               },
             },
             {
@@ -1129,7 +1123,6 @@ const completionSpec: Fig.Spec = {
                 name: "IMAGE_PATH",
                 description:
                   "An Artifact Registry repository or a container image.\nIf not specified, default config values are used.\n+\nA valid docker repository has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID\n+\nA valid image has the format of\n  LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY-ID/IMAGE_PATH",
-                isVariadic: false,
               },
             },
           ],
@@ -1847,7 +1840,6 @@ const completionSpec: Fig.Spec = {
             name: "OPERATION",
             description:
               "ID of the operation or fully qualified identifier for the operation",
-            isVariadic: false,
           },
         },
       ],
@@ -2144,7 +2136,6 @@ const completionSpec: Fig.Spec = {
             name: "PACKAGE",
             description:
               "ID of the package or fully qualified identifier for the package",
-            isVariadic: false,
           },
         },
         {
@@ -3292,7 +3283,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
         {
@@ -3486,7 +3476,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
         {
@@ -3639,7 +3628,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
         {
@@ -3787,7 +3775,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
         {
@@ -3975,7 +3962,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
         {
@@ -4353,7 +4339,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
         {
@@ -4502,13 +4487,11 @@ const completionSpec: Fig.Spec = {
               name: "REPOSITORY",
               description:
                 "ID of the repository or fully qualified identifier for the repository",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description:
                 "Path to a local JSON or YAML formatted file containing a valid policy.\n+\nThe output of the `get-iam-policy` command is a valid file, as is any\nJSON or YAML file conforming to the structure of a\n[Policy](https://cloud.google.com/iam/reference/rest/v1/Policy)",
-              isVariadic: false,
             },
           ],
         },
@@ -4691,7 +4674,6 @@ const completionSpec: Fig.Spec = {
             name: "REPOSITORY",
             description:
               "ID of the repository or fully qualified identifier for the repository",
-            isVariadic: false,
           },
         },
       ],
@@ -4992,7 +4974,6 @@ const completionSpec: Fig.Spec = {
             name: "TAG",
             description:
               "ID of the tag or fully qualified identifier for the tag",
-            isVariadic: false,
           },
         },
         {
@@ -5159,7 +5140,6 @@ const completionSpec: Fig.Spec = {
             name: "TAG",
             description:
               "ID of the tag or fully qualified identifier for the tag",
-            isVariadic: false,
           },
         },
         {
@@ -5529,7 +5509,6 @@ const completionSpec: Fig.Spec = {
             name: "TAG",
             description:
               "ID of the tag or fully qualified identifier for the tag",
-            isVariadic: false,
           },
         },
       ],
@@ -5840,7 +5819,6 @@ const completionSpec: Fig.Spec = {
             name: "VERSION",
             description:
               "ID of the version or fully qualified identifier for the version",
-            isVariadic: false,
           },
         },
         {

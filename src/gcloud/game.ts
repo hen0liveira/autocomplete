@@ -141,7 +141,6 @@ const completionSpec: Fig.Spec = {
             name: "LOCATION",
             description:
               "ID of the location or fully qualified identifier for the location",
-            isVariadic: false,
           },
         },
         {
@@ -599,7 +598,6 @@ const completionSpec: Fig.Spec = {
             name: "OPERATION",
             description:
               "ID of the operation or fully qualified identifier for the operation",
-            isVariadic: false,
           },
         },
         {
@@ -1135,7 +1133,6 @@ const completionSpec: Fig.Spec = {
                 name: "CLUSTER",
                 description:
                   "ID of the game server cluster or fully qualified identifier for the game server cluster",
-                isVariadic: false,
               },
             },
             {
@@ -1306,7 +1303,6 @@ const completionSpec: Fig.Spec = {
                 name: "CLUSTER",
                 description:
                   "ID of the Game Server Cluster or fully qualified identifier for the Game Server Cluster",
-                isVariadic: false,
               },
             },
             {
@@ -1462,7 +1458,6 @@ const completionSpec: Fig.Spec = {
                 name: "CLUSTER",
                 description:
                   "ID of the game server cluster or fully qualified identifier for the game server cluster",
-                isVariadic: false,
               },
             },
             {
@@ -1863,7 +1858,6 @@ const completionSpec: Fig.Spec = {
                 name: "CLUSTER",
                 description:
                   "ID of the game server cluster or fully qualified identifier for the game server cluster",
-                isVariadic: false,
               },
             },
           ],
@@ -2200,7 +2194,6 @@ const completionSpec: Fig.Spec = {
                 name: "CONFIG",
                 description:
                   "ID of the game server config or fully qualified identifier for the game server config",
-                isVariadic: false,
               },
             },
             {
@@ -2361,7 +2354,6 @@ const completionSpec: Fig.Spec = {
                 name: "CONFIG",
                 description:
                   "ID of the game server config or fully qualified identifier for the game server config",
-                isVariadic: false,
               },
             },
             {
@@ -2517,7 +2509,6 @@ const completionSpec: Fig.Spec = {
                 name: "CONFIG",
                 description:
                   "ID of the game server config or fully qualified identifier for the game server config",
-                isVariadic: false,
               },
             },
             {
@@ -3018,7 +3009,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
             {
@@ -3170,7 +3160,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
             {
@@ -3317,7 +3306,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
             {
@@ -3464,7 +3452,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
             {
@@ -3611,7 +3598,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
             {
@@ -3984,7 +3970,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
             {
@@ -4176,7 +4161,6 @@ const completionSpec: Fig.Spec = {
                 name: "DEPLOYMENT",
                 description:
                   "ID of the deployment or fully qualified identifier for the deployment",
-                isVariadic: false,
               },
             },
           ],
@@ -4492,7 +4476,6 @@ const completionSpec: Fig.Spec = {
                 name: "REALM",
                 description:
                   "ID of the realm or fully qualified identifier for the realm",
-                isVariadic: false,
               },
             },
             {
@@ -4644,7 +4627,6 @@ const completionSpec: Fig.Spec = {
                 name: "REALM",
                 description:
                   "ID of the realm or fully qualified identifier for the realm",
-                isVariadic: false,
               },
             },
             {
@@ -4791,7 +4773,6 @@ const completionSpec: Fig.Spec = {
                 name: "REALM",
                 description:
                   "ID of the realm or fully qualified identifier for the realm",
-                isVariadic: false,
               },
             },
             {
@@ -5184,7 +5165,6 @@ const completionSpec: Fig.Spec = {
                 name: "REALM",
                 description:
                   "ID of the realm or fully qualified identifier for the realm",
-                isVariadic: false,
               },
             },
           ],

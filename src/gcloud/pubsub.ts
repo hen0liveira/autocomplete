@@ -172,7 +172,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "SUBSCRIPTION",
             description: "Subscription ID",
-            isVariadic: false,
           },
         },
         {
@@ -319,7 +318,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -466,7 +464,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -807,7 +804,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
       ],
@@ -1141,7 +1137,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "TOPIC",
             description: "Topic ID",
-            isVariadic: false,
           },
         },
         {
@@ -1288,7 +1283,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -1435,7 +1429,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -1805,7 +1798,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -1993,7 +1985,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
       ],
@@ -2569,7 +2560,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "SNAPSHOT",
             description: "Snapshot to describe",
-            isVariadic: false,
           },
         },
         {
@@ -3030,7 +3020,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -3189,7 +3178,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -3769,7 +3757,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -3947,7 +3934,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -4285,7 +4271,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -4455,7 +4440,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -4644,7 +4628,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -4803,7 +4786,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -4972,7 +4954,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
         {
@@ -5111,12 +5092,10 @@ const completionSpec: Fig.Spec = {
               name: "SUBSCRIPTION",
               description:
                 "ID of the subscription or fully qualified identifier for the subscription",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description: "JSON or YAML file with the IAM policy",
-              isVariadic: false,
             },
           ],
         },
@@ -5410,7 +5389,6 @@ const completionSpec: Fig.Spec = {
             name: "SUBSCRIPTION",
             description:
               "ID of the subscription or fully qualified identifier for the subscription",
-            isVariadic: false,
           },
         },
       ],
@@ -5703,7 +5681,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -6175,7 +6152,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -6491,7 +6467,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -6851,7 +6826,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -7019,7 +6993,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -7178,7 +7151,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
         {
@@ -7317,12 +7289,10 @@ const completionSpec: Fig.Spec = {
               name: "TOPIC",
               description:
                 "ID of the topic or fully qualified identifier for the topic",
-              isVariadic: false,
             },
             {
               name: "POLICY_FILE",
               description: "JSON or YAML file with the IAM policy",
-              isVariadic: false,
             },
           ],
         },
@@ -7539,7 +7509,6 @@ const completionSpec: Fig.Spec = {
             name: "TOPIC",
             description:
               "ID of the topic or fully qualified identifier for the topic",
-            isVariadic: false,
           },
         },
       ],

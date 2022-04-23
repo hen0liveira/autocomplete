@@ -178,7 +178,6 @@ const completionSpec: Fig.Spec = {
         name: "ORGANIZATION",
         description:
           "ID of the organization or fully qualified identifier for the organization",
-        isVariadic: false,
       },
     },
     {
@@ -315,7 +314,6 @@ const completionSpec: Fig.Spec = {
       args: {
         name: "ORGANIZATION_ID",
         description: "ID or domain for the organization you want to describe",
-        isVariadic: false,
       },
     },
     {
@@ -493,7 +491,6 @@ const completionSpec: Fig.Spec = {
         name: "ORGANIZATION_ID",
         description:
           "ID or domain for the organization whose policy you want to get",
-        isVariadic: false,
       },
     },
     {
@@ -854,7 +851,6 @@ const completionSpec: Fig.Spec = {
         name: "ORGANIZATION",
         description:
           "ID of the organization or fully qualified identifier for the organization",
-        isVariadic: false,
       },
     },
     {
@@ -993,12 +989,10 @@ const completionSpec: Fig.Spec = {
           name: "ORGANIZATION_ID",
           description:
             "ID or domain for the organization whose IAM policy you want to set",
-          isVariadic: false,
         },
         {
           name: "POLICY_FILE",
           description: "JSON or YAML file containing the IAM policy",
-          isVariadic: false,
         },
       ],
     },

@@ -223,7 +223,6 @@ const completionSpec: Fig.Spec = {
             name: "TEMPLATE_FILE_GCS_PATH",
             description:
               "The Google Cloud Storage location of the flex template file.Overrides if file already exists",
-            isVariadic: false,
           },
         },
         {
@@ -512,7 +511,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "JOB_NAME",
             description: "Unique name to assign to the job",
-            isVariadic: false,
           },
         },
       ],
@@ -944,7 +942,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "JOB_ID",
             description: "The job ID to operate on",
-            isVariadic: false,
           },
         },
         {
@@ -1585,7 +1582,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "JOB_NAME",
             description: "The unique name to assign to the job",
-            isVariadic: false,
           },
         },
         {
@@ -1740,7 +1736,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "JOB_ID",
             description: "The job ID to operate on",
-            isVariadic: false,
           },
         },
       ],
@@ -2226,7 +2221,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "QUERY",
             description: "The SQL query to execute",
-            isVariadic: false,
           },
         },
       ],

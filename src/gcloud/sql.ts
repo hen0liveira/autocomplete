@@ -323,7 +323,6 @@ const completionSpec: Fig.Spec = {
             name: "ID",
             description:
               "The ID of the backup run. You can find the ID by running\n            $ gcloud beta sql backups list",
-            isVariadic: false,
           },
         },
         {
@@ -470,7 +469,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "ID",
             description: "The ID of the Backup Run",
-            isVariadic: false,
           },
         },
         {
@@ -819,7 +817,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "BACKUP_ID",
             description: "The ID of the backup run to restore from",
-            isVariadic: false,
           },
         },
       ],
@@ -1104,7 +1101,6 @@ const completionSpec: Fig.Spec = {
       args: {
         name: "INSTANCE",
         description: "Cloud SQL instance ID",
-        isVariadic: false,
       },
     },
     {
@@ -1281,7 +1277,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "DATABASE",
             description: "Cloud SQL database name",
-            isVariadic: false,
           },
         },
         {
@@ -1428,7 +1423,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "DATABASE",
             description: "Cloud SQL database name",
-            isVariadic: false,
           },
         },
         {
@@ -1576,7 +1570,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "DATABASE",
             description: "Cloud SQL database name",
-            isVariadic: false,
           },
         },
         {
@@ -1934,7 +1927,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "DATABASE",
             description: "Cloud SQL database name",
-            isVariadic: false,
           },
         },
       ],
@@ -2221,13 +2213,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "The path to the file in Google Cloud Storage where the export will be stored. The URI is in the form gs://bucketName/fileName. If the file already exists, the operation fails",
-              isVariadic: false,
             },
           ],
         },
@@ -2397,13 +2387,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "The path to the file in Google Cloud Storage where the export will be stored. The URI is in the form gs://bucketName/fileName. If the file already exists, the operation fails. If the filename ends with .gz, the contents are compressed",
-              isVariadic: false,
             },
           ],
         },
@@ -2572,13 +2560,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "The path to the file in Google Cloud Storage where the export will be stored. The URI is in the form gs://bucketName/fileName. If the file already exists, the operation fails. If the filename ends with .gz, the contents are compressed",
-              isVariadic: false,
             },
           ],
         },
@@ -3237,13 +3223,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "Path to the BAK file file in Google Cloud Storage from which the import is made. The URI is in the form `gs://bucketName/fileName`",
-              isVariadic: false,
             },
           ],
         },
@@ -3427,13 +3411,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "Path to the CSV file in Google Cloud Storage from which the import is made. The URI is in the form `gs://bucketName/fileName`. Compressed gzip files (.gz) are also supported",
-              isVariadic: false,
             },
           ],
         },
@@ -3597,13 +3579,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "Path to the MySQL dump file in Google Cloud Storage from which the import is made. The URI is in the form `gs://bucketName/fileName`. Compressed gzip files (.gz) are also supported",
-              isVariadic: false,
             },
           ],
         },
@@ -3913,12 +3893,10 @@ const completionSpec: Fig.Spec = {
             {
               name: "SOURCE",
               description: "Cloud SQL instance ID of the source",
-              isVariadic: false,
             },
             {
               name: "DESTINATION",
               description: "Cloud SQL instance ID of the clone",
-              isVariadic: false,
             },
           ],
         },
@@ -4457,7 +4435,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -4599,7 +4576,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -4737,7 +4713,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -4900,13 +4875,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "The path to the file in Google Cloud Storage where the export will be stored. The URI is in the form gs://bucketName/fileName. If the file already exists, the operation fails. If the filename ends with .gz, the contents are compressed",
-              isVariadic: false,
             },
           ],
         },
@@ -5050,7 +5023,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -5204,13 +5176,11 @@ const completionSpec: Fig.Spec = {
             {
               name: "INSTANCE",
               description: "Cloud SQL instance ID",
-              isVariadic: false,
             },
             {
               name: "URI",
               description:
                 "Path to the MySQL dump file in Google Cloud Storage from which the import is made. The URI is in the form gs://bucketName/fileName. Compressed gzip files (.gz) are also supported",
-              isVariadic: false,
             },
           ],
         },
@@ -5858,7 +5828,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -6001,7 +5970,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "REPLICA",
             description: "Cloud SQL read replica ID",
-            isVariadic: false,
           },
         },
         {
@@ -6144,7 +6112,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -6286,7 +6253,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID",
-            isVariadic: false,
           },
         },
         {
@@ -6447,7 +6413,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "INSTANCE",
             description: "Cloud SQL instance ID that will be restored",
-            isVariadic: false,
           },
         },
       ],
@@ -6720,7 +6685,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "OPERATION",
             description: "Name that uniquely identifies the operation",
-            isVariadic: false,
           },
         },
         {
@@ -7347,7 +7311,6 @@ const completionSpec: Fig.Spec = {
       args: {
         name: "INSTANCE",
         description: "Cloud SQL instance ID",
-        isVariadic: false,
       },
     },
     {
@@ -7507,13 +7470,11 @@ const completionSpec: Fig.Spec = {
                   name: "COMMON_NAME",
                   description:
                     "User supplied name. Constrained to ```[a-zA-Z.-_ ]+```",
-                  isVariadic: false,
                 },
                 {
                   name: "CERT_FILE",
                   description:
                     "Location of file which the private key of the created ssl-cert will be written to",
-                  isVariadic: false,
                 },
               ],
             },
@@ -7668,7 +7629,6 @@ const completionSpec: Fig.Spec = {
                 name: "COMMON_NAME",
                 description:
                   "User supplied name. Constrained to ```[a-zA-Z.-_ ]+```",
-                isVariadic: false,
               },
             },
             {
@@ -7817,7 +7777,6 @@ const completionSpec: Fig.Spec = {
                 name: "COMMON_NAME",
                 description:
                   "User supplied name. Constrained to ```[a-zA-Z.-_ ]+```",
-                isVariadic: false,
               },
             },
             {
@@ -8419,13 +8378,11 @@ const completionSpec: Fig.Spec = {
               name: "COMMON_NAME",
               description:
                 "User supplied name. Constrained to ```[a-zA-Z.-_ ]+```",
-              isVariadic: false,
             },
             {
               name: "CERT_FILE",
               description:
                 "Location of file which the private key of the created ssl-cert will be written to",
-              isVariadic: false,
             },
           ],
         },
@@ -8580,7 +8537,6 @@ const completionSpec: Fig.Spec = {
             name: "COMMON_NAME",
             description:
               "User supplied name. Constrained to ```[a-zA-Z.-_ ]+```",
-            isVariadic: false,
           },
         },
         {
@@ -8729,7 +8685,6 @@ const completionSpec: Fig.Spec = {
             name: "COMMON_NAME",
             description:
               "User supplied name. Constrained to ```[a-zA-Z.-_ ]+```",
-            isVariadic: false,
           },
         },
         {
@@ -9533,7 +9488,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "USERNAME",
             description: "Cloud SQL username",
-            isVariadic: false,
           },
         },
         {
@@ -9695,7 +9649,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "USERNAME",
             description: "Cloud SQL username",
-            isVariadic: false,
           },
         },
         {
@@ -10058,7 +10011,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "USERNAME",
             description: "Cloud SQL username",
-            isVariadic: false,
           },
         },
       ],

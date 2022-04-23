@@ -161,7 +161,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -320,7 +319,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -479,7 +477,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -678,7 +675,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -906,7 +902,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -1114,7 +1109,6 @@ const completionSpec: Fig.Spec = {
             name: "ASSET",
             description:
               "ID of the asset or fully qualified identifier for the asset",
-            isVariadic: false,
           },
         },
         {
@@ -1252,7 +1246,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -1431,7 +1424,6 @@ const completionSpec: Fig.Spec = {
             name: "ASSET",
             description:
               "ID of the asset or fully qualified identifier for the asset",
-            isVariadic: false,
           },
         },
       ],
@@ -1786,7 +1778,6 @@ const completionSpec: Fig.Spec = {
             name: "FINDING",
             description:
               "ID of the finding or fully qualified identifier for the finding",
-            isVariadic: false,
           },
         },
         {
@@ -1994,7 +1985,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -2231,7 +2221,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -2449,7 +2438,6 @@ const completionSpec: Fig.Spec = {
             name: "FINDING",
             description:
               "ID of the finding or fully qualified identifier for the finding",
-            isVariadic: false,
           },
         },
         {
@@ -2658,7 +2646,6 @@ const completionSpec: Fig.Spec = {
             name: "FINDING",
             description:
               "ID of the finding or fully qualified identifier for the finding",
-            isVariadic: false,
           },
         },
         {
@@ -2847,7 +2834,6 @@ const completionSpec: Fig.Spec = {
             name: "FINDING",
             description:
               "ID of the finding or fully qualified identifier for the finding",
-            isVariadic: false,
           },
         },
       ],
@@ -3160,7 +3146,6 @@ const completionSpec: Fig.Spec = {
             name: "NOTIFICATION_CONFIG_ID",
             description:
               'The ID of the notification config. Formatted as "organizations/123/notificationConfigs/456" or just "456"',
-            isVariadic: false,
           },
         },
         {
@@ -3309,7 +3294,6 @@ const completionSpec: Fig.Spec = {
             name: "NOTIFICATION_CONFIG_ID",
             description:
               'The ID of the notification config. Formatted as "organizations/123/notificationConfigs/456" or just "456"',
-            isVariadic: false,
           },
         },
         {
@@ -3458,7 +3442,6 @@ const completionSpec: Fig.Spec = {
             name: "NOTIFICATION_CONFIG_ID",
             description:
               'The ID of the notification config. Formatted as "organizations/123/notificationConfigs/456" or just "456"',
-            isVariadic: false,
           },
         },
         {
@@ -3637,7 +3620,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
         {
@@ -3816,7 +3798,6 @@ const completionSpec: Fig.Spec = {
             name: "NOTIFICATION_CONFIG_ID",
             description:
               'The ID of the notification config. Formatted as "organizations/123/notificationConfigs/456" or just "456"',
-            isVariadic: false,
           },
         },
       ],
@@ -4098,7 +4079,6 @@ const completionSpec: Fig.Spec = {
             name: "OPERATION",
             description:
               "ID of the operation or fully qualified identifier for the operation",
-            isVariadic: false,
           },
         },
       ],
@@ -4390,7 +4370,6 @@ const completionSpec: Fig.Spec = {
             name: "ORGANIZATION",
             description:
               "ID of the organization or fully qualified identifier for the organization",
-            isVariadic: false,
           },
         },
       ],

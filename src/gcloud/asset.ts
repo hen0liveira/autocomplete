@@ -944,7 +944,6 @@ const completionSpec: Fig.Spec = {
             name: "FEED_ID",
             description:
               "Asset feed identifier being created, it must be unique under the specified parent resource project/folder/organization",
-            isVariadic: false,
           },
         },
         {
@@ -1089,7 +1088,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "FEED_ID",
             description: "Asset feed identifier to delete",
-            isVariadic: false,
           },
         },
         {
@@ -1234,7 +1232,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "FEED_ID",
             description: "Asset feed identifier to describe",
-            isVariadic: false,
           },
         },
         {
@@ -1641,7 +1638,6 @@ const completionSpec: Fig.Spec = {
             name: "FEED_ID",
             description:
               "Identifier of the asset feed to update, which must be unique in its parent resource. Parent resource can be a project, folder, or an organization",
-            isVariadic: false,
           },
         },
       ],
@@ -2093,7 +2089,6 @@ const completionSpec: Fig.Spec = {
           args: {
             name: "OPERATION_NAME",
             description: "Name of the operation to describe",
-            isVariadic: false,
           },
         },
       ],
